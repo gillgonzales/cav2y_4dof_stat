@@ -1,0 +1,263 @@
+
+Analise  de Dados com Kruskal-Wallis para amostras nao parametricas
+# A tibble: 4,739 x 5
+   algo   alfa  beta  s1h0   tmin
+   <chr> <dbl> <dbl> <dbl>  <dbl>
+ 1 DT1       3    30   0.3 0.0437
+ 2 DT1      -9   -53   0.1 0.0815
+ 3 DT1      13    26   0.2 0.0424
+ 4 DT1     -23   -18   0.5 0.0410
+ 5 DT1      24    16   0.5 0.0715
+ 6 DT1      29    46   0.1 0.0557
+ 7 DT1      47    12   0.1 0.0450
+ 8 DT1      13    15   0.7 0.0828
+ 9 DT1       4     5   0.6 0.0681
+10 DT1       7   -45   0.1 0.0720
+# … with 4,729 more rows
+
+	Shapiro-Wilk normality test
+
+data:  data1[[vardata]]
+W = 0.78775, p-value < 2.2e-16
+
+
+	Shapiro-Wilk normality test
+
+data:  data2[[vardata]]
+W = 0.7444, p-value < 2.2e-16
+
+Levene's Test for Homogeneity of Variance (center = median)
+        Df F value    Pr(>F)    
+group    1  21.551 3.539e-06 ***
+      4737                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Kruskal-Wallis rank sum test
+
+data:  alfa by algo
+Kruskal-Wallis chi-squared = 14.402, df = 1, p-value = 0.0001476
+
+Error in Psort[1, i] : número incorreto de dimensões
+Além disso: Warning messages:
+1: In leveneTest.default(y = y, group = group, ...) :
+  group coerced to factor.
+2: algo was coerced to a factor. 
+Error in dev.off() : 
+  não é possível desligar dispositivo 1 (o dispositivo nulo)
+
+Analise  de Dados com Kruskal-Wallis para amostras nao parametricas
+# A tibble: 4,739 x 5
+   algo   alfa  beta  s1h0   tmin
+   <chr> <dbl> <dbl> <dbl>  <dbl>
+ 1 DT1       3    30   0.3 0.0437
+ 2 DT1      -9   -53   0.1 0.0815
+ 3 DT1      13    26   0.2 0.0424
+ 4 DT1     -23   -18   0.5 0.0410
+ 5 DT1      24    16   0.5 0.0715
+ 6 DT1      29    46   0.1 0.0557
+ 7 DT1      47    12   0.1 0.0450
+ 8 DT1      13    15   0.7 0.0828
+ 9 DT1       4     5   0.6 0.0681
+10 DT1       7   -45   0.1 0.0720
+# … with 4,729 more rows
+
+	Shapiro-Wilk normality test
+
+data:  data1[[vardata]]
+W = 0.77418, p-value < 2.2e-16
+
+
+	Shapiro-Wilk normality test
+
+data:  data2[[vardata]]
+W = 0.74049, p-value < 2.2e-16
+
+Levene's Test for Homogeneity of Variance (center = median)
+        Df F value Pr(>F)
+group    1  0.0235  0.878
+      4737               
+
+	Kruskal-Wallis rank sum test
+
+data:  tmin by algo
+Kruskal-Wallis chi-squared = 7.8912, df = 1, p-value = 0.004968
+
+Error in Psort[1, i] : número incorreto de dimensões
+Além disso: Warning messages:
+1: In leveneTest.default(y = y, group = group, ...) :
+  group coerced to factor.
+2: algo was coerced to a factor. 
+Error in dev.off() : 
+  não é possível desligar dispositivo 1 (o dispositivo nulo)
+
+Analise  de Dados com Kruskal-Wallis para amostras nao parametricas
+# A tibble: 4,739 x 5
+   algo   alfa  beta  s1h0   tmin
+   <chr> <dbl> <dbl> <dbl>  <dbl>
+ 1 DT1       3    30   0.3 0.0437
+ 2 DT1      -9   -53   0.1 0.0815
+ 3 DT1      13    26   0.2 0.0424
+ 4 DT1     -23   -18   0.5 0.0410
+ 5 DT1      24    16   0.5 0.0715
+ 6 DT1      29    46   0.1 0.0557
+ 7 DT1      47    12   0.1 0.0450
+ 8 DT1      13    15   0.7 0.0828
+ 9 DT1       4     5   0.6 0.0681
+10 DT1       7   -45   0.1 0.0720
+# … with 4,729 more rows
+
+	Shapiro-Wilk normality test
+
+data:  data1[[vardata]]
+W = 0.62147, p-value < 2.2e-16
+
+
+	Shapiro-Wilk normality test
+
+data:  data2[[vardata]]
+W = 0.53867, p-value < 2.2e-16
+
+Levene's Test for Homogeneity of Variance (center = median)
+        Df F value    Pr(>F)    
+group    1  29.633 5.484e-08 ***
+      4737                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Kruskal-Wallis rank sum test
+
+data:  s1h0 by algo
+Kruskal-Wallis chi-squared = 43.352, df = 1, p-value = 4.572e-11
+
+Error in Psort[1, i] : número incorreto de dimensões
+Além disso: Warning messages:
+1: In leveneTest.default(y = y, group = group, ...) :
+  group coerced to factor.
+2: algo was coerced to a factor. 
+Error in dev.off() : 
+  não é possível desligar dispositivo 1 (o dispositivo nulo)
+
+Analise  de Dados com Kruskal-Wallis para amostras nao parametricas
+# A tibble: 4,739 x 5
+   algo   alfa  beta  s1h0   tmin
+   <chr> <dbl> <dbl> <dbl>  <dbl>
+ 1 DT1       3    30   0.3 0.0437
+ 2 DT1      -9   -53   0.1 0.0815
+ 3 DT1      13    26   0.2 0.0424
+ 4 DT1     -23   -18   0.5 0.0410
+ 5 DT1      24    16   0.5 0.0715
+ 6 DT1      29    46   0.1 0.0557
+ 7 DT1      47    12   0.1 0.0450
+ 8 DT1      13    15   0.7 0.0828
+ 9 DT1       4     5   0.6 0.0681
+10 DT1       7   -45   0.1 0.0720
+# … with 4,729 more rows
+
+	Shapiro-Wilk normality test
+
+data:  data1[[vardata]]
+W = 0.84524, p-value < 2.2e-16
+
+
+	Shapiro-Wilk normality test
+
+data:  data2[[vardata]]
+W = 0.80218, p-value < 2.2e-16
+
+Levene's Test for Homogeneity of Variance (center = median)
+        Df F value Pr(>F)
+group    1  1.5778 0.2091
+      4737               
+
+	Kruskal-Wallis rank sum test
+
+data:  beta by algo
+Kruskal-Wallis chi-squared = 0.0052848, df = 1, p-value = 0.942
+
+Error in Psort[1, i] : número incorreto de dimensões
+Além disso: Warning messages:
+1: In leveneTest.default(y = y, group = group, ...) :
+  group coerced to factor.
+2: algo was coerced to a factor. 
+3: In for (i in 1:k) { :
+  encerrando conexão não utilizada 12 (mutation_test/plots/kw_boxplot_vpoints/boxplot/s1h0_boxplot_mkw_ed_a_0.01_mutation_test_.log)
+Error in dev.off() : 
+  não é possível desligar dispositivo 1 (o dispositivo nulo)
+
+Analise  de Dados com Kruskal-Wallis para amostras nao parametricas
+# A tibble: 4,739 x 5
+   algo   alfa  beta  s1h0   tmin
+   <chr> <dbl> <dbl> <dbl>  <dbl>
+ 1 DT1       3    30   0.3 0.0437
+ 2 DT1      -9   -53   0.1 0.0815
+ 3 DT1      13    26   0.2 0.0424
+ 4 DT1     -23   -18   0.5 0.0410
+ 5 DT1      24    16   0.5 0.0715
+ 6 DT1      29    46   0.1 0.0557
+ 7 DT1      47    12   0.1 0.0450
+ 8 DT1      13    15   0.7 0.0828
+ 9 DT1       4     5   0.6 0.0681
+10 DT1       7   -45   0.1 0.0720
+# … with 4,729 more rows
+
+	Shapiro-Wilk normality test
+
+data:  data1[[vardata]]
+W = 0.78775, p-value < 2.2e-16
+
+
+	Shapiro-Wilk normality test
+
+data:  data2[[vardata]]
+W = 0.7444, p-value < 2.2e-16
+
+Levene's Test for Homogeneity of Variance (center = median)
+        Df F value    Pr(>F)    
+group    1  21.551 3.539e-06 ***
+      4737                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Kruskal-Wallis rank sum test
+
+data:  alfa by algo
+Kruskal-Wallis chi-squared = 14.402, df = 1, p-value = 0.0001476
+
+Error in Psort[1, i] : número incorreto de dimensões
+Além disso: Warning messages:
+1: In leveneTest.default(y = y, group = group, ...) :
+  group coerced to factor.
+2: algo was coerced to a factor. 
+Error in dev.off() : 
+  não é possível desligar dispositivo 1 (o dispositivo nulo)
+
+Analise  de Dados com Kruskal-Wallis para amostras nao parametricas
+# A tibble: 4,739 x 5
+   algo   alfa  beta  s1h0   tmin
+   <chr> <dbl> <dbl> <dbl>  <dbl>
+ 1 DT1       3    30   0.3 0.0437
+ 2 DT1      -9   -53   0.1 0.0815
+ 3 DT1      13    26   0.2 0.0424
+ 4 DT1     -23   -18   0.5 0.0410
+ 5 DT1      24    16   0.5 0.0715
+ 6 DT1      29    46   0.1 0.0557
+ 7 DT1      47    12   0.1 0.0450
+ 8 DT1      13    15   0.7 0.0828
+ 9 DT1       4     5   0.6 0.0681
+10 DT1       7   -45   0.1 0.0720
+# … with 4,729 more rows
+# A tibble: 4,739 x 5
+   algo   alfa  beta  s1h0   tmin
+   <chr> <dbl> <dbl> <dbl>  <dbl>
+ 1 DT1       3    30   0.3 0.0437
+ 2 DT1      -9   -53   0.1 0.0815
+ 3 DT1      13    26   0.2 0.0424
+ 4 DT1     -23   -18   0.5 0.0410
+ 5 DT1      24    16   0.5 0.0715
+ 6 DT1      29    46   0.1 0.0557
+ 7 DT1      47    12   0.1 0.0450
+ 8 DT1      13    15   0.7 0.0828
+ 9 DT1       4     5   0.6 0.0681
+10 DT1       7   -45   0.1 0.0720
+# … with 4,729 more rows

@@ -1,0 +1,539 @@
+
+Analise  de Dados com Kruskal-Wallis para amostras nao parametricas
+Error in readChar(con, 5L, useBytes = TRUE) : 
+  não é possível abrir a conexão
+Além disso: Warning message:
+In readChar(con, 5L, useBytes = TRUE) :
+  não foi possível abrir o arquivo comprimido 'np20ng50/rda/data_de1a.rda', motivo provável 'Arquivo ou diretório não encontrado'
+Error in readChar(con, 5L, useBytes = TRUE) : 
+  não é possível abrir a conexão
+Além disso: Warning message:
+In readChar(con, 5L, useBytes = TRUE) :
+  não foi possível abrir o arquivo comprimido 'np20ng50/rda/data_de2a.rda', motivo provável 'Arquivo ou diretório não encontrado'
+Error in readChar(con, 5L, useBytes = TRUE) : 
+  não é possível abrir a conexão
+Além disso: Warning message:
+In readChar(con, 5L, useBytes = TRUE) :
+  não foi possível abrir o arquivo comprimido 'np20ng50/rda/data_de3a.rda', motivo provável 'Arquivo ou diretório não encontrado'
+Error in readChar(con, 5L, useBytes = TRUE) : 
+  não é possível abrir a conexão
+Além disso: Warning message:
+In readChar(con, 5L, useBytes = TRUE) :
+  não foi possível abrir o arquivo comprimido 'np20ng50/rda/data_de4a.rda', motivo provável 'Arquivo ou diretório não encontrado'
+Error in readChar(con, 5L, useBytes = TRUE) : 
+  não é possível abrir a conexão
+Além disso: Warning message:
+In readChar(con, 5L, useBytes = TRUE) :
+  não foi possível abrir o arquivo comprimido 'np20ng50/rda/data_de1b.rda', motivo provável 'Arquivo ou diretório não encontrado'
+Error in readChar(con, 5L, useBytes = TRUE) : 
+  não é possível abrir a conexão
+Além disso: Warning message:
+In readChar(con, 5L, useBytes = TRUE) :
+  não foi possível abrir o arquivo comprimido 'np20ng50/rda/data_de2b.rda', motivo provável 'Arquivo ou diretório não encontrado'
+Error in readChar(con, 5L, useBytes = TRUE) : 
+  não é possível abrir a conexão
+Além disso: Warning message:
+In readChar(con, 5L, useBytes = TRUE) :
+  não foi possível abrir o arquivo comprimido 'np20ng50/rda/data_de3b.rda', motivo provável 'Arquivo ou diretório não encontrado'
+Error in readChar(con, 5L, useBytes = TRUE) : 
+  não é possível abrir a conexão
+Além disso: Warning message:
+In readChar(con, 5L, useBytes = TRUE) :
+  não foi possível abrir o arquivo comprimido 'np20ng50/rda/data_de4b.rda', motivo provável 'Arquivo ou diretório não encontrado'
+Error in readChar(con, 5L, useBytes = TRUE) : 
+  não é possível abrir a conexão
+Além disso: Warning message:
+In readChar(con, 5L, useBytes = TRUE) :
+  não foi possível abrir o arquivo comprimido 'np20ng50/rda/data_de1c.rda', motivo provável 'Arquivo ou diretório não encontrado'
+Error in readChar(con, 5L, useBytes = TRUE) : 
+  não é possível abrir a conexão
+Além disso: Warning message:
+In readChar(con, 5L, useBytes = TRUE) :
+  não foi possível abrir o arquivo comprimido 'np20ng50/rda/data_de2c.rda', motivo provável 'Arquivo ou diretório não encontrado'
+Error in readChar(con, 5L, useBytes = TRUE) : 
+  não é possível abrir a conexão
+Além disso: Warning message:
+In readChar(con, 5L, useBytes = TRUE) :
+  não foi possível abrir o arquivo comprimido 'np20ng50/rda/data_de3c.rda', motivo provável 'Arquivo ou diretório não encontrado'
+Error in readChar(con, 5L, useBytes = TRUE) : 
+  não é possível abrir a conexão
+Além disso: Warning message:
+In readChar(con, 5L, useBytes = TRUE) :
+  não foi possível abrir o arquivo comprimido 'np20ng50/rda/data_de4c.rda', motivo provável 'Arquivo ou diretório não encontrado'
+Error in readChar(con, 5L, useBytes = TRUE) : 
+  não é possível abrir a conexão
+Além disso: Warning message:
+In readChar(con, 5L, useBytes = TRUE) :
+  não foi possível abrir o arquivo comprimido 'np20ng50/rda/data_de1d.rda', motivo provável 'Arquivo ou diretório não encontrado'
+Error in readChar(con, 5L, useBytes = TRUE) : 
+  não é possível abrir a conexão
+Além disso: Warning message:
+In readChar(con, 5L, useBytes = TRUE) :
+  não foi possível abrir o arquivo comprimido 'np20ng50/rda/data_de2d.rda', motivo provável 'Arquivo ou diretório não encontrado'
+Error in readChar(con, 5L, useBytes = TRUE) : 
+  não é possível abrir a conexão
+Além disso: Warning message:
+In readChar(con, 5L, useBytes = TRUE) :
+  não foi possível abrir o arquivo comprimido 'np20ng50/rda/data_de3d.rda', motivo provável 'Arquivo ou diretório não encontrado'
+Error in readChar(con, 5L, useBytes = TRUE) : 
+  não é possível abrir a conexão
+Além disso: Warning message:
+In readChar(con, 5L, useBytes = TRUE) :
+  não foi possível abrir o arquivo comprimido 'np20ng50/rda/data_de4d.rda', motivo provável 'Arquivo ou diretório não encontrado'
+    algo  ab       tmin nfo     time
+1   ED11  15 0.05137355  45 17.02769
+2   ED11  15 0.05137355  45 18.10529
+3   ED11  15 0.05137355  45 14.92798
+4   ED11  14 0.05151055  45 15.29280
+5   ED11  15 0.05137355  45 15.24154
+6   ED11  22 0.05714748  45 16.05000
+7   ED11  20 0.05554198  45 15.05334
+8   ED11  16 0.05222654  45 16.17474
+9   ED11  14 0.05151055  45 14.86348
+10  ED11  14 0.05151055  45 15.06805
+11  ED11  12 0.05374993  45 15.19813
+12  ED11  16 0.05222654  45 15.63474
+13  ED11  14 0.05151055  45 14.69349
+14  ED11  16 0.05222654  45 15.01892
+15  ED11  13 0.05262561  45 14.86969
+16  ED11  17 0.05306956  45 14.79030
+17  ED11  14 0.05151055  45 15.59086
+18  ED11  13 0.05262561  45 15.09796
+19  ED11  16 0.05222654  45 14.95966
+20  ED11  14 0.05151055  45 14.79210
+21  ED11  17 0.05306956  45 15.10089
+22  ED11  15 0.05137355  45 15.52114
+23  ED11  13 0.05262561  45 20.69869
+24  ED11  15 0.05137355  45 15.72009
+25  ED11  13 0.05262561  45 16.06718
+26  ED11  12 0.05374993  45 14.85898
+27  ED11  14 0.05151055  45 16.51270
+28  ED11  16 0.05222654  45 15.06169
+29  ED11  15 0.05137355  45 15.01075
+30  ED11  15 0.05137355  45 15.85027
+31  ED21   7 0.05946044  45 18.13911
+32  ED21  15 0.05137355  45 16.95233
+33  ED21  15 0.05137355  45 16.75336
+34  ED21  10 0.05601938  45 15.15119
+35  ED21  15 0.05137355  45 15.75632
+36  ED21  15 0.05137355  45 15.75249
+37  ED21  16 0.05222654  45 15.04266
+38  ED21  14 0.05151055  45 15.97657
+39  ED21  14 0.05151055  45 16.11358
+40  ED21  10 0.05601938  45 14.82817
+41  ED21  15 0.05137355  45 14.82042
+42  ED21  15 0.05137355  45 18.37307
+43  ED21  16 0.05222654  45 15.05952
+44  ED21  13 0.05262561  45 15.08217
+45  ED21  14 0.05151055  45 15.04916
+46  ED21  15 0.05137355  45 17.94805
+47  ED21  15 0.05137355  45 15.81134
+48  ED21  17 0.05306956  45 15.27366
+49  ED21  14 0.05151055  45 14.66037
+50  ED21  15 0.05137355  45 14.89122
+51  ED21  15 0.05137355  45 14.81658
+52  ED21  15 0.05137355  45 16.66588
+53  ED21  15 0.05137355  45 19.52950
+54  ED21  13 0.05262561  45 15.99880
+55  ED21  16 0.05222654  45 16.16089
+56  ED21  15 0.05137355  45 15.10089
+57  ED21  17 0.05306956  45 15.20780
+58  ED21  16 0.05222654  45 15.13618
+59  ED21  12 0.05374993  45 17.24243
+60  ED21  21 0.05634866  45 15.92755
+61  ED31  15 0.05137355  45 17.39636
+62  ED31  26 0.06026992  45 16.85051
+63  ED31  13 0.05262561  45 16.64545
+64  ED31  15 0.05137355  45 16.37310
+65  ED31  15 0.05137355  45 15.18127
+66  ED31  15 0.05137355  45 15.10823
+67  ED31  16 0.05222654  45 14.90078
+68  ED31  13 0.05262561  45 15.71789
+69  ED31  15 0.05137355  45 15.39954
+70  ED31 -39 0.12404339  45 14.89846
+71  ED31  12 0.05374993  45 15.06667
+72  ED31  15 0.05137355  45 17.44355
+73  ED31  15 0.05137355  45 15.06173
+74  ED31  14 0.05151055  45 15.07744
+75  ED31  13 0.05262561  45 14.95776
+76  ED31  14 0.05151055  45 17.92501
+77  ED31  15 0.05137355  45 15.12670
+78  ED31  18 0.05390268  45 15.80962
+79  ED31  15 0.05137355  45 15.07276
+80  ED31  15 0.05137355  45 15.45204
+81  ED31  15 0.05137355  45 15.42469
+82  ED31  16 0.05222654  45 15.65030
+83  ED31  15 0.05137355  45 20.95076
+84  ED31  19 0.05472679  45 16.70745
+85  ED31  15 0.05137355  45 18.51951
+86  ED31  17 0.05306956  45 15.94621
+87  ED31  20 0.05554198  45 17.30939
+88  ED31  15 0.05137355  45 22.02897
+89  ED31  15 0.05137355  45 15.88102
+90  ED31  13 0.05262561  45 14.11737
+91  ED41   7 0.05946044  45 19.26774
+92  ED41  15 0.05137355  45 16.87978
+93  ED41  15 0.05137355  45 15.13105
+94  ED41  10 0.05601938  45 14.90371
+95  ED41  15 0.05137355  45 15.43568
+96  ED41  15 0.05137355  45 15.09243
+97  ED41  16 0.05222654  45 15.16476
+98  ED41  14 0.05151055  45 15.94762
+99  ED41  14 0.05151055  45 15.31528
+100 ED41  10 0.05601938  45 14.87370
+101 ED41  15 0.05137355  45 15.44531
+102 ED41  15 0.05137355  45 16.40303
+103 ED41  16 0.05222654  45 15.00049
+104 ED41  13 0.05262561  45 14.93809
+105 ED41  14 0.05151055  45 14.81246
+106 ED41  15 0.05137355  45 15.50239
+107 ED41  15 0.05137355  45 15.67574
+108 ED41  17 0.05306956  45 15.76161
+109 ED41  14 0.05151055  45 15.00712
+110 ED41  15 0.05137355  45 15.12859
+111 ED41  15 0.05137355  45 15.09095
+112 ED41  15 0.05137355  45 15.24127
+113 ED41  15 0.05137355  45 20.93582
+114 ED41  13 0.05262561  45 15.39878
+115 ED41  16 0.05222654  45 18.12926
+116 ED41  15 0.05137355  45 17.19461
+117 ED41  17 0.05306956  45 15.51187
+118 ED41  16 0.05222654  45 20.90760
+119 ED41  12 0.05374993  45 16.31678
+120 ED41  21 0.05634866  45 15.57180
+121 ED12  15 0.05137355  45 17.02769
+122 ED12  15 0.05137355  45 18.10529
+123 ED12  15 0.05137355  45 14.92798
+124 ED12  14 0.05151055  45 15.29280
+125 ED12  15 0.05137355  45 15.24154
+126 ED12  22 0.05714748  45 16.05000
+127 ED12  20 0.05554198  45 15.05334
+128 ED12  16 0.05222654  45 16.17474
+129 ED12  14 0.05151055  45 14.86348
+130 ED12  14 0.05151055  45 15.06805
+131 ED12  12 0.05374993  45 15.19813
+132 ED12  16 0.05222654  45 15.63474
+133 ED12  14 0.05151055  45 14.69349
+134 ED12  16 0.05222654  45 15.01892
+135 ED12  13 0.05262561  45 14.86969
+136 ED12  17 0.05306956  45 14.79030
+137 ED12  14 0.05151055  45 15.59086
+138 ED12  13 0.05262561  45 15.09796
+139 ED12  16 0.05222654  45 14.95966
+140 ED12  14 0.05151055  45 14.79210
+141 ED12  17 0.05306956  45 15.10089
+142 ED12  15 0.05137355  45 15.52114
+143 ED12  13 0.05262561  45 20.69869
+144 ED12  15 0.05137355  45 15.72009
+145 ED12  13 0.05262561  45 16.06718
+146 ED12  12 0.05374993  45 14.85898
+147 ED12  14 0.05151055  45 16.51270
+148 ED12  16 0.05222654  45 15.06169
+149 ED12  15 0.05137355  45 15.01075
+150 ED12  15 0.05137355  45 15.85027
+151 ED22   7 0.05946044  45 18.13911
+152 ED22  15 0.05137355  45 16.95233
+153 ED22  15 0.05137355  45 16.75336
+154 ED22  10 0.05601938  45 15.15119
+155 ED22  15 0.05137355  45 15.75632
+156 ED22  15 0.05137355  45 15.75249
+157 ED22  16 0.05222654  45 15.04266
+158 ED22  14 0.05151055  45 15.97657
+159 ED22  14 0.05151055  45 16.11358
+160 ED22  10 0.05601938  45 14.82817
+161 ED22  15 0.05137355  45 14.82042
+162 ED22  15 0.05137355  45 18.37307
+163 ED22  16 0.05222654  45 15.05952
+164 ED22  13 0.05262561  45 15.08217
+165 ED22  14 0.05151055  45 15.04916
+166 ED22  15 0.05137355  45 17.94805
+167 ED22  15 0.05137355  45 15.81134
+168 ED22  17 0.05306956  45 15.27366
+169 ED22  14 0.05151055  45 14.66037
+170 ED22  15 0.05137355  45 14.89122
+171 ED22  15 0.05137355  45 14.81658
+172 ED22  15 0.05137355  45 16.66588
+173 ED22  15 0.05137355  45 19.52950
+174 ED22  13 0.05262561  45 15.99880
+175 ED22  16 0.05222654  45 16.16089
+176 ED22  15 0.05137355  45 15.10089
+177 ED22  17 0.05306956  45 15.20780
+178 ED22  16 0.05222654  45 15.13618
+179 ED22  12 0.05374993  45 17.24243
+180 ED22  21 0.05634866  45 15.92755
+181 ED32  15 0.05137355  45 17.39636
+182 ED32  26 0.06026992  45 16.85051
+183 ED32  13 0.05262561  45 16.64545
+184 ED32  15 0.05137355  45 16.37310
+185 ED32  15 0.05137355  45 15.18127
+186 ED32  15 0.05137355  45 15.10823
+187 ED32  16 0.05222654  45 14.90078
+188 ED32  13 0.05262561  45 15.71789
+189 ED32  15 0.05137355  45 15.39954
+190 ED32 -39 0.12404339  45 14.89846
+191 ED32  12 0.05374993  45 15.06667
+192 ED32  15 0.05137355  45 17.44355
+193 ED32  15 0.05137355  45 15.06173
+194 ED32  14 0.05151055  45 15.07744
+195 ED32  13 0.05262561  45 14.95776
+196 ED32  14 0.05151055  45 17.92501
+197 ED32  15 0.05137355  45 15.12670
+198 ED32  18 0.05390268  45 15.80962
+199 ED32  15 0.05137355  45 15.07276
+200 ED32  15 0.05137355  45 15.45204
+ [ reached 'max' / getOption("max.print") -- omitted 280 rows ]
+     algo                 ab              tmin              nfo    
+ Length:480         Min.   :-39.00   Min.   :0.05137   Min.   :45  
+ Class :character   1st Qu.: 14.00   1st Qu.:0.05137   1st Qu.:45  
+ Mode  :character   Median : 15.00   Median :0.05151   Median :45  
+                    Mean   : 14.42   Mean   :0.05304   Mean   :45  
+                    3rd Qu.: 15.25   3rd Qu.:0.05263   3rd Qu.:45  
+                    Max.   : 26.00   Max.   :0.12404   Max.   :45  
+      time      
+ Min.   :14.12  
+ 1st Qu.:15.06  
+ Median :15.44  
+ Mean   :15.98  
+ 3rd Qu.:16.33  
+ Max.   :22.03  
+
+	Shapiro-Wilk normality test
+
+data:  data[[vardata]]
+W = 0.19491, p-value < 2.2e-16
+
+
+	Shapiro-Wilk normality test
+
+data:  dtdea1[[vardata]]
+W = 0.717, p-value = 2.785e-06
+
+
+	Shapiro-Wilk normality test
+
+data:  dtdeb1[[vardata]]
+W = 0.717, p-value = 2.785e-06
+
+
+	Shapiro-Wilk normality test
+
+data:  dtdec1[[vardata]]
+W = 0.717, p-value = 2.785e-06
+
+
+	Shapiro-Wilk normality test
+
+data:  dtded1[[vardata]]
+W = 0.717, p-value = 2.785e-06
+
+
+	Shapiro-Wilk normality test
+
+data:  dtdea2[[vardata]]
+W = 0.65122, p-value = 3.275e-07
+
+
+	Shapiro-Wilk normality test
+
+data:  dtdeb2[[vardata]]
+W = 0.65122, p-value = 3.275e-07
+
+
+	Shapiro-Wilk normality test
+
+data:  dtdec2[[vardata]]
+W = 0.65122, p-value = 3.275e-07
+
+
+	Shapiro-Wilk normality test
+
+data:  dtded2[[vardata]]
+W = 0.65122, p-value = 3.275e-07
+
+
+	Shapiro-Wilk normality test
+
+data:  dtdea3[[vardata]]
+W = 0.26181, p-value = 3.411e-11
+
+
+	Shapiro-Wilk normality test
+
+data:  dtdeb3[[vardata]]
+W = 0.26181, p-value = 3.411e-11
+
+
+	Shapiro-Wilk normality test
+
+data:  dtdec3[[vardata]]
+W = 0.26181, p-value = 3.411e-11
+
+
+	Shapiro-Wilk normality test
+
+data:  dtded3[[vardata]]
+W = 0.26181, p-value = 3.411e-11
+
+
+	Shapiro-Wilk normality test
+
+data:  dtdea4[[vardata]]
+W = 0.65122, p-value = 3.275e-07
+
+
+	Shapiro-Wilk normality test
+
+data:  dtdeb4[[vardata]]
+W = 0.65122, p-value = 3.275e-07
+
+
+	Shapiro-Wilk normality test
+
+data:  dtdec4[[vardata]]
+W = 0.65122, p-value = 3.275e-07
+
+
+	Shapiro-Wilk normality test
+
+data:  dtded4[[vardata]]
+W = 0.65122, p-value = 3.275e-07
+
+Warning message:
+In leveneTest.default(y = y, group = group, ...) : group coerced to factor.
+Levene's Test for Homogeneity of Variance (center = median)
+       Df F value Pr(>F)
+group  15  0.7489 0.7344
+      464               
+
+	Kruskal-Wallis rank sum test
+
+data:  tmin by algo
+Kruskal-Wallis chi-squared = 3.0062, df = 15, p-value = 0.9996
+
+Warning message:
+algo was coerced to a factor. 
+Dunn (1964) Kruskal-Wallis multiple comparison
+  p-values adjusted with the Benjamini-Hochberg method.
+
+     Comparison          Z   P.unadj P.adj
+1   ED11 - ED12  0.0000000 1.0000000     1
+2   ED11 - ED13  0.0000000 1.0000000     1
+3   ED12 - ED13  0.0000000 1.0000000     1
+4   ED11 - ED14  0.0000000 1.0000000     1
+5   ED12 - ED14  0.0000000 1.0000000     1
+6   ED13 - ED14  0.0000000 1.0000000     1
+7   ED11 - ED21  0.6597020 0.5094451     1
+8   ED12 - ED21  0.6597020 0.5094451     1
+9   ED13 - ED21  0.6597020 0.5094451     1
+10  ED14 - ED21  0.6597020 0.5094451     1
+11  ED11 - ED22  0.6597020 0.5094451     1
+12  ED12 - ED22  0.6597020 0.5094451     1
+13  ED13 - ED22  0.6597020 0.5094451     1
+14  ED14 - ED22  0.6597020 0.5094451     1
+15  ED21 - ED22  0.0000000 1.0000000     1
+16  ED11 - ED23  0.6597020 0.5094451     1
+17  ED12 - ED23  0.6597020 0.5094451     1
+18  ED13 - ED23  0.6597020 0.5094451     1
+19  ED14 - ED23  0.6597020 0.5094451     1
+20  ED21 - ED23  0.0000000 1.0000000     1
+21  ED22 - ED23  0.0000000 1.0000000     1
+22  ED11 - ED24  0.6597020 0.5094451     1
+23  ED12 - ED24  0.6597020 0.5094451     1
+24  ED13 - ED24  0.6597020 0.5094451     1
+25  ED14 - ED24  0.6597020 0.5094451     1
+26  ED21 - ED24  0.0000000 1.0000000     1
+27  ED22 - ED24  0.0000000 1.0000000     1
+28  ED23 - ED24  0.0000000 1.0000000     1
+29  ED11 - ED31  0.7777133 0.4367381     1
+30  ED12 - ED31  0.7777133 0.4367381     1
+31  ED13 - ED31  0.7777133 0.4367381     1
+32  ED14 - ED31  0.7777133 0.4367381     1
+33  ED21 - ED31  0.1180112 0.9060588     1
+34  ED22 - ED31  0.1180112 0.9060588     1
+35  ED23 - ED31  0.1180112 0.9060588     1
+36  ED24 - ED31  0.1180112 0.9060588     1
+37  ED11 - ED32  0.7777133 0.4367381     1
+38  ED12 - ED32  0.7777133 0.4367381     1
+39  ED13 - ED32  0.7777133 0.4367381     1
+40  ED14 - ED32  0.7777133 0.4367381     1
+41  ED21 - ED32  0.1180112 0.9060588     1
+42  ED22 - ED32  0.1180112 0.9060588     1
+43  ED23 - ED32  0.1180112 0.9060588     1
+44  ED24 - ED32  0.1180112 0.9060588     1
+45  ED31 - ED32  0.0000000 1.0000000     1
+46  ED11 - ED33  0.7777133 0.4367381     1
+47  ED12 - ED33  0.7777133 0.4367381     1
+48  ED13 - ED33  0.7777133 0.4367381     1
+49  ED14 - ED33  0.7777133 0.4367381     1
+50  ED21 - ED33  0.1180112 0.9060588     1
+51  ED22 - ED33  0.1180112 0.9060588     1
+52  ED23 - ED33  0.1180112 0.9060588     1
+53  ED24 - ED33  0.1180112 0.9060588     1
+54  ED31 - ED33  0.0000000 1.0000000     1
+55  ED32 - ED33  0.0000000 1.0000000     1
+56  ED11 - ED34  0.7777133 0.4367381     1
+57  ED12 - ED34  0.7777133 0.4367381     1
+58  ED13 - ED34  0.7777133 0.4367381     1
+59  ED14 - ED34  0.7777133 0.4367381     1
+60  ED21 - ED34  0.1180112 0.9060588     1
+61  ED22 - ED34  0.1180112 0.9060588     1
+62  ED23 - ED34  0.1180112 0.9060588     1
+63  ED24 - ED34  0.1180112 0.9060588     1
+64  ED31 - ED34  0.0000000 1.0000000     1
+65  ED32 - ED34  0.0000000 1.0000000     1
+66  ED33 - ED34  0.0000000 1.0000000     1
+67  ED11 - ED41  0.6597020 0.5094451     1
+68  ED12 - ED41  0.6597020 0.5094451     1
+69  ED13 - ED41  0.6597020 0.5094451     1
+70  ED14 - ED41  0.6597020 0.5094451     1
+71  ED21 - ED41  0.0000000 1.0000000     1
+72  ED22 - ED41  0.0000000 1.0000000     1
+73  ED23 - ED41  0.0000000 1.0000000     1
+74  ED24 - ED41  0.0000000 1.0000000     1
+75  ED31 - ED41 -0.1180112 0.9060588     1
+76  ED32 - ED41 -0.1180112 0.9060588     1
+77  ED33 - ED41 -0.1180112 0.9060588     1
+78  ED34 - ED41 -0.1180112 0.9060588     1
+79  ED11 - ED42  0.6597020 0.5094451     1
+80  ED12 - ED42  0.6597020 0.5094451     1
+81  ED13 - ED42  0.6597020 0.5094451     1
+82  ED14 - ED42  0.6597020 0.5094451     1
+83  ED21 - ED42  0.0000000 1.0000000     1
+84  ED22 - ED42  0.0000000 1.0000000     1
+85  ED23 - ED42  0.0000000 1.0000000     1
+86  ED24 - ED42  0.0000000 1.0000000     1
+87  ED31 - ED42 -0.1180112 0.9060588     1
+88  ED32 - ED42 -0.1180112 0.9060588     1
+89  ED33 - ED42 -0.1180112 0.9060588     1
+90  ED34 - ED42 -0.1180112 0.9060588     1
+91  ED41 - ED42  0.0000000 1.0000000     1
+92  ED11 - ED43  0.6597020 0.5094451     1
+93  ED12 - ED43  0.6597020 0.5094451     1
+94  ED13 - ED43  0.6597020 0.5094451     1
+95  ED14 - ED43  0.6597020 0.5094451     1
+96  ED21 - ED43  0.0000000 1.0000000     1
+97  ED22 - ED43  0.0000000 1.0000000     1
+98  ED23 - ED43  0.0000000 1.0000000     1
+99  ED24 - ED43  0.0000000 1.0000000     1
+100 ED31 - ED43 -0.1180112 0.9060588     1
+101 ED32 - ED43 -0.1180112 0.9060588     1
+102 ED33 - ED43 -0.1180112 0.9060588     1
+103 ED34 - ED43 -0.1180112 0.9060588     1
+104 ED41 - ED43  0.0000000 1.0000000     1
+105 ED42 - ED43  0.0000000 1.0000000     1
+106 ED11 - ED44  0.6597020 0.5094451     1
+107 ED12 - ED44  0.6597020 0.5094451     1
+108 ED13 - ED44  0.6597020 0.5094451     1
+109 ED14 - ED44  0.6597020 0.5094451     1
+110 ED21 - ED44  0.0000000 1.0000000     1
+111 ED22 - ED44  0.0000000 1.0000000     1
+112 ED23 - ED44  0.0000000 1.0000000     1
+113 ED24 - ED44  0.0000000 1.0000000     1
+114 ED31 - ED44 -0.1180112 0.9060588     1
+115 ED32 - ED44 -0.1180112 0.9060588     1
+116 ED33 - ED44 -0.1180112 0.9060588     1
+117 ED34 - ED44 -0.1180112 0.9060588     1
+118 ED41 - ED44  0.0000000 1.0000000     1
+119 ED42 - ED44  0.0000000 1.0000000     1
+120 ED43 - ED44  0.0000000 1.0000000     1
+Error : No significant differences.

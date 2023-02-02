@@ -1,0 +1,96 @@
+
+Analise  de Dados com Kruskal-Wallis para amostras nao parametricas
+# A tibble: 90 x 7
+   algo   alfa  beta  s1h0   tmin   nfo  time
+   <chr> <dbl> <dbl> <dbl>  <dbl> <dbl> <dbl>
+ 1 DE1     -53     0   0.9 0.0208  2494 1237.
+ 2 DE1     -53     0   0.9 0.0208  2436 1203.
+ 3 DE1     -53     0   0.9 0.0208  2510 1247.
+ 4 DE1     -53     0   0.9 0.0208  2560 1275.
+ 5 DE1     -53     0   0.9 0.0208  2485 1220.
+ 6 DE1     -53     0   0.9 0.0208  2560 1252.
+ 7 DE1     -53     0   0.9 0.0208  2511 1195.
+ 8 DE1     -53     0   0.9 0.0208  2537 1241.
+ 9 DE1     -53     0   0.9 0.0208  2563 1242.
+10 DE1     -53     0   0.9 0.0208  2423 1181.
+# … with 80 more rows
+
+	Shapiro-Wilk normality test
+
+data:  data[[vardata]]
+W = 0.24502, p-value < 2.2e-16
+
+Error in shapiro.test(data_de1[[vardata]]) : all 'x' values are identical
+
+	Shapiro-Wilk normality test
+
+data:  data_de2[[vardata]]
+W = 0.46009, p-value = 2.079e-09
+
+Error in shapiro.test(data_de3[[vardata]]) : all 'x' values are identicanull device 
+          1 
+
+Analise  de Dados com Kruskal-Wallis para amostras nao parametricas
+# A tibble: 4,739 x 5
+   algo   alfa  beta  s1h0   tmin
+   <chr> <dbl> <dbl> <dbl>  <dbl>
+ 1 DT1       3    30   0.3 0.0437
+ 2 DT1      -9   -53   0.1 0.0815
+ 3 DT1      13    26   0.2 0.0424
+ 4 DT1     -23   -18   0.5 0.0410
+ 5 DT1      24    16   0.5 0.0715
+ 6 DT1      29    46   0.1 0.0557
+ 7 DT1      47    12   0.1 0.0450
+ 8 DT1      13    15   0.7 0.0828
+ 9 DT1       4     5   0.6 0.0681
+10 DT1       7   -45   0.1 0.0720
+# … with 4,729 more rows
+     algo                alfa             beta              s1h0             tmin        
+ Length:4739        Min.   :-80.00   Min.   :-80.000   Min.   :0.1000   Min.   :0.02080  
+ Class :character   1st Qu.:-54.00   1st Qu.: -3.000   1st Qu.:0.8000   1st Qu.:0.02202  
+ Mode  :character   Median :-53.00   Median :  0.000   Median :0.9000   Median :0.02703  
+                    Mean   :-41.02   Mean   :  1.078   Mean   :0.7803   Mean   :0.03615  
+                    3rd Qu.:-39.00   3rd Qu.:  4.000   3rd Qu.:0.9000   3rd Qu.:0.04339  
+                    Max.   : 61.00   Max.   : 80.000   Max.   :0.9000   Max.   :0.11956  
+
+	Shapiro-Wilk normality test
+
+data:  data[[vardata]]
+W = 0.75758, p-value < 2.2e-16
+
+
+	Shapiro-Wilk normality test
+
+data:  data1[[vardata]]
+W = 0.77418, p-value < 2.2e-16
+
+
+	Shapiro-Wilk normality test
+
+data:  data2[[vardata]]
+W = 0.74049, p-value < 2.2e-16
+
+Levene's Test for Homogeneity of Variance (center = median)
+        Df F value Pr(>F)
+group    1  0.0235  0.878
+      4737               
+
+	Kruskal-Wallis rank sum test
+
+data:  tmin by algo
+Kruskal-Wallis chi-squared = 7.8912, df = 1, p-value = 0.004968
+
+  Comparison         Z      P.unadj        P.adj
+1  DE1 - DE2 -4.300468 1.704381e-05 2.556572e-05
+2  DE1 - DE3  0.000000 1.000000e+00 1.000000e+00
+3  DE2 - DE3  4.300468 1.704381e-05 5.113144e-05
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 

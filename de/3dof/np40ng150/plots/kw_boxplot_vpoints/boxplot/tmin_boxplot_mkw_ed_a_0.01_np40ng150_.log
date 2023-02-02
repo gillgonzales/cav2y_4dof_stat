@@ -1,0 +1,21 @@
+
+Analise  de Dados com Kruskal-Wallis para amostras nao parametricas
+Error in gzfile(file) : todas as conexões estão em uso
+png 
+  3 
+Error in file(paste(dirplot, logname, sep = "/")) : 
+  todas as conexões estão em uso
+png 
+  4 
+Error in file(paste(dirplot, logname, sep = "/")) : 
+  todas as conexões estão em uso
+png 
+  5 
+Error in file(paste(dirplot, logname, sep = "/")) : 
+  todas as conexões estão em uso
+png 
+  6 
+Error in textConnection("rval", "w", local = TRUE) : 
+  todas as conexões estão em uso
+Error in gzfile(file) : todas as conexões estão em uso
+Error in gzfile(file) : todas as conexões estão em uso

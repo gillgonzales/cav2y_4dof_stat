@@ -1,0 +1,54 @@
+
+Analise  de Dados com Kruskal-Wallis para amostras nao parametricas
+# A tibble: 90 x 7
+   algo   alfa  beta  s1h0   tmin   nfo  time
+   <chr> <dbl> <dbl> <dbl>  <dbl> <dbl> <dbl>
+ 1 DE1     -53     0   0.9 0.0208  2494 1237.
+ 2 DE1     -53     0   0.9 0.0208  2436 1203.
+ 3 DE1     -53     0   0.9 0.0208  2510 1247.
+ 4 DE1     -53     0   0.9 0.0208  2560 1275.
+ 5 DE1     -53     0   0.9 0.0208  2485 1220.
+ 6 DE1     -53     0   0.9 0.0208  2560 1252.
+ 7 DE1     -53     0   0.9 0.0208  2511 1195.
+ 8 DE1     -53     0   0.9 0.0208  2537 1241.
+ 9 DE1     -53     0   0.9 0.0208  2563 1242.
+10 DE1     -53     0   0.9 0.0208  2423 1181.
+# … with 80 more rows
+
+	Shapiro-Wilk normality test
+
+data:  data[[vardata]]
+W = 0.39439, p-value < 2.2e-16
+
+Error in shapiro.test(data_de1[[vardata]]) : all 'x' values are identical
+
+	Shapiro-Wilk normality test
+
+data:  data_de2[[vardata]]
+W = 0.70549, p-value = 1.877e-06
+
+Error in shapiro.test(data_de3[[vardata]]) : all 'x' values are identical
+Levene's Test for Homogeneity of Variance (center = median)
+      Df F value    Pr(>F)    
+group  2  11.175 4.791e-05 ***
+      87                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Kruskal-Wallis rank sum test
+
+data:  beta by algo
+Kruskal-Wallis chi-squared = 1.8342, df = 2, p-value = 0.3997
+
+Dunn (1964) Kruskal-Wallis multiple comparison
+  p-values adjusted with the Benjamini-Hochberg method.
+
+  Comparison        Z   P.unadj     P.adj
+1  DE1 - DE2  1.17287 0.2408481 0.3612721
+2  DE1 - DE3  0.00000 1.0000000 1.0000000
+3  DE2 - DE3 -1.17287 0.2408481 0.7225442
+Error : No significant differences.
+Além disso: Warning messages:
+1: In leveneTest.default(y = y, group = group, ...) :
+  group coerced to factor.
+2: algo was coerced to a factor. 

@@ -1,0 +1,45 @@
+
+Analise  de Dados com Kruskal-Wallis para amostras nao parametricas
+# A tibble: 4,739 x 5
+   algo   alfa  beta  s1h0   tmin
+   <chr> <dbl> <dbl> <dbl>  <dbl>
+ 1 DT1       3    30   0.3 0.0437
+ 2 DT1      -9   -53   0.1 0.0815
+ 3 DT1      13    26   0.2 0.0424
+ 4 DT1     -23   -18   0.5 0.0410
+ 5 DT1      24    16   0.5 0.0715
+ 6 DT1      29    46   0.1 0.0557
+ 7 DT1      47    12   0.1 0.0450
+ 8 DT1      13    15   0.7 0.0828
+ 9 DT1       4     5   0.6 0.0681
+10 DT1       7   -45   0.1 0.0720
+# … with 4,729 more rows
+
+	Shapiro-Wilk normality test
+
+data:  data1[[vardata]]
+W = 0.77418, p-value < 2.2e-16
+
+
+	Shapiro-Wilk normality test
+
+data:  data2[[vardata]]
+W = 0.74049, p-value < 2.2e-16
+
+Levene's Test for Homogeneity of Variance (center = median)
+        Df F value Pr(>F)
+group    1  0.0235  0.878
+      4737               
+
+	Kruskal-Wallis rank sum test
+
+data:  tmin by algo
+Kruskal-Wallis chi-squared = 7.8912, df = 1, p-value = 0.004968
+
+Error in Psort[1, i] : número incorreto de dimensões
+Além disso: Warning messages:
+1: In leveneTest.default(y = y, group = group, ...) :
+  group coerced to factor.
+2: algo was coerced to a factor. 
+Error in dev.off() : 
+  não é possível desligar dispositivo 1 (o dispositivo nulo)
