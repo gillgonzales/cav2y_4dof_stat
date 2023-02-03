@@ -1,0 +1,2 @@
+#git config core.sshCommand "ssh -i ~/.ssh/gillgonzales -F /dev/null"
+
